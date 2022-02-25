@@ -1,13 +1,10 @@
-@media (max-width: 1140px){
+@media (max-width: 1156px){
     .fiexd-width {
         width: 100%;
         max-width: 100%;
         padding: 0 30px;
-    }
-}
-@media (max-width: 966px){
-    .heider-right ul {
-        text-align: left;
+        box-sizing: border-box;
+        
     }
     .heider-right {
         width: 65%;
@@ -16,4 +13,201 @@
         width: 35%;
     }
 }
-@media-q
+@media (max-width: 1056px){
+    .blog-item p {
+        font-size: 15px;
+    }
+    .blog-right ul li {
+        font-size: 16px;
+    }
+    .heider-left {
+        width: 35%;
+    }
+}
+@media (max-width: 939px){
+    .heider-left {
+        width: 100% !important;
+        float: none;
+        text-align: center;
+    }
+    .heider-right {
+        float: none;
+        width: 100%;
+    }
+    .heider-left {
+        width: 35%;
+    }
+    .heider-right ul {
+        text-align: center;
+    }
+}
+@media (max-width: 913px){
+    .heider-right ul li a {
+        padding: 0px 16px;
+        line-height: 50px;
+        border: none;
+    }
+    .blog-left {
+        float: none;
+        width: 100%;
+    }
+    .blog-right {
+        float: none;
+        width: 100%;
+    }
+    .blog-right ul li {
+        font-size: 20px;
+    }
+    .blog-item p {
+        font-size: 17px;
+    }
+}
+@media (max-width: 737px){
+    .blog-item p {
+        font-size: 15px;
+    }
+    .services-item p {
+        font-size: 13px;
+    }
+    .services-item h3 {
+        font-size: 23px;
+    }
+    .services-item span {
+        width: 45px;
+        height: 45px;
+        font-size: 23px;
+        line-height: 45px;
+    }
+}
+@media (max-width: 705px){
+    .blog-left {
+        float: none;
+        width: 100%;
+    }
+    .blog-item {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .blog-item img {
+        float: none;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .blog-item p {
+        font-size: 15px;
+        text-align: left;
+    }
+    .services-item h3 {
+        font-size: 23px;
+    }
+}
+@media (max-width: 670px){
+    .services-item {
+        float: none;
+        width: 65%;
+        margin: auto;
+        margin-bottom: 23px;
+    }
+    .services-item span {
+        width: 60px;
+        height: 60px;
+        font-size: 33px;
+        line-height: 60px;
+    }
+    .services-item h3 {
+        font-size: 31px;
+    }
+    .services-item p {
+        font-size: 20px;
+    }
+    .blog-item img {
+        width: 290px;
+    }
+}
+@media (max-width: 641px){
+    .footer-right {
+        float: right;
+        width: 50%;
+    }
+    .footer-left {
+        float: left;
+        width: 50%;
+    }
+    .banner-caption h1 {
+        font-size: 20px;
+    }
+    .banner-caption h2 {
+        max-width: 352px;
+        font-size: 23px;
+    }
+    .blog-item img {
+        width: 220px;
+    }
+    .about h1 {
+        font-size: 28px;
+    }
+    .about p {
+        max-width: 516px;
+        font-size: 16px;
+    }
+}
+@media (max-width: 577px){
+    .socail-menu ul {
+        text-align: center;
+        position: absolute;
+        top: 7px;
+        left: 34%;
+    }
+    .footer-left {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .footer {
+        padding: 50px 0 15px;
+        position: relative;
+    }
+    .blog-item p {
+        font-size: 15px;
+        text-align: justify;
+    }
+    .services-item p {
+        font-size: 16px;
+    }
+    .services-item h3 {
+        font-size: 25px;
+    }
+    .services-item span {
+        width: 50px;
+        height: 50px;
+        font-size: 22px;
+        line-height: 50px;
+    }
+    .about p {
+        max-width: 447px;
+        font-size: 15px;
+    }
+    .heider-right ul li a {
+        font-size: 15px;
+    }
+}
+@media (max-width: 399px){
+    .services-item {
+        width: 95%;
+    }
+    .socail-menu ul {
+        left: 26%;
+    }
+}
+@media (max-width: 399px){
+    .banner-caption h1 {
+        font-size: 15px;
+    }
+    .banner-caption h2 {
+        max-width: 252px;
+        font-size: 16px;
+    }
+    .socail-menu ul {
+        left: 16%;
+    }
+}
